@@ -1,0 +1,21 @@
+{
+  "name": "dio-podcastapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dev": "tsx src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "start:dist": "npm run dist && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "tsup": "^8.3.6",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}

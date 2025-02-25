@@ -23,6 +23,10 @@ Listar os episodios podcats em sessões de categorias
 
 ### Como vou implementar:
 
+GET: retorna a lista de episódios
+
+response:
+
 Vou retornar em uma api rest (json) o 
 nome do podcast, nome do episódio, imagem de capa, link, categorias
 

@@ -6,9 +6,9 @@ import http from 'http';
 export const app = async (req: http.IncomingMessage, res: http.ServerResponse) => {
 
     //query string
-    const [baseURL, queryString] = req.url?.split('?') ?? ["", ""];
-    console.log(baseURL);
-    console.log(queryString);
+    const baseURL = req.url?.split('?')[0]
+    
+   
    
     
     if (req.method === HttpMethod.GET && baseURL === Routes.LIST) {
